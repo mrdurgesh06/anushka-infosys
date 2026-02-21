@@ -73,7 +73,7 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="footer-bottom">
         <div class="container">
-          <p>© 2025 Anushka Infosys Pvt. Ltd. All Rights Reserved.</p>
+          <p>Powered by Yash infosoft © 2011/Yash infosoft Private Limited © 2026</p>
           <p>Designed with ❤ for quality education</p>
         </div>
       </div>
