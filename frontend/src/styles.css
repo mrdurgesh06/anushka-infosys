@@ -1,0 +1,60 @@
+/* Global Styles – Anushka Infosys */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #1e88e5;
+  --primary-dark: #1565c0;
+  --accent: #00bcd4;
+  --navy: #0a2463;
+  --navy-light: #1a3a8c;
+  --text: #37474f;
+  --text-muted: #78909c;
+  --bg-light: #f8fbff;
+  --border: #e3f2fd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text);
+  background: white;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f0f4f8; }
+::-webkit-scrollbar-thumb { background: #90caf9; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #1e88e5; }
+
+/* Selection */
+::selection { background: rgba(30, 136, 229, 0.2); color: #0d2461; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+a { transition: color 0.2s; }
+
+/* View Transitions */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.3s;
+}
+
+/* Page margin for fixed header */
+app-root > main { margin-top: 70px; }
+
+/* Utility */
+.text-center { text-align: center; }
+.mt-auto { margin-top: auto; }
