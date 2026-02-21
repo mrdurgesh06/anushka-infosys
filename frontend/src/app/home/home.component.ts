@@ -194,7 +194,7 @@ import { ApiService, Testimonial } from '../core/api.service';
       display: flex;
       align-items: center;
       overflow: hidden;
-      padding-top: 70px;
+      padding-top: 10px;
     }
     .hero-bg {
       position: absolute;

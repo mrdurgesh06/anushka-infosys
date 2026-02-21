@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <div class="logo">
           <a routerLink="/">
-            <img src="assets/images/logo.png" alt="Anushka Infosys Logo" class="logo-img">
+            <img src="assets/images/logo.png" alt="Anushka Infosys Logo" class="logo-img" width="44" height="44">
               <div class="logo-text">
                 <span class="brand-name">Anushka Infosys</span>
                 <span class="brand-tagline">Complete IT Solution</span>
@@ -75,12 +75,13 @@ import { CommonModule } from '@angular/common';
       text-decoration: none;
     }
     .logo-img {
-      width: 44px;
-      height: 44px;
-      object-fit: contain;
-      border-radius: 8px;
-      background: white;
-      padding: 2px;
+        width: 44px;
+        height: 44px;
+        object-fit: contain;
+        border-radius: 8px;
+        background: white;
+        padding: 2px;
+        image-rendering: auto;
     }
     .logo-text {
       display: flex;

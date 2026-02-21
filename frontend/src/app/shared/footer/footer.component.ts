@@ -12,7 +12,7 @@ import { RouterLink } from '@angular/router';
           <div class="footer-grid">
             <div class="footer-brand">
               <div class="logo-wrap">
-                <img src="assets/images/logo.png" alt="Anushka Infosys Logo" class="logo-img">
+                <img src="assets/images/logo.png" alt="Anushka Infosys Logo" class="logo-img" width="48" height="48">
                 <div>
                   <div class="brand-name">Anushka Infosys Pvt. Ltd.</div>
                   <div class="brand-sub">Complete IT Solution</div>
